@@ -7,4 +7,20 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'directive-example';
+
+  data : any[] = [{
+    name: 'Prashant Pimpale',
+    gender: 'Male',
+    salary: '10$'
+  },
+  {
+    name: 'Sujata Mirge',
+    gender: 'Female',
+    salary: '200$'
+  },
+  {
+    name: 'Vikas Pawar',
+    gender: 'N/A',
+    salary: '20$'
+  }]
 }
